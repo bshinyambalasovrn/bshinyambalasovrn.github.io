@@ -232,10 +232,14 @@
                     + '<meta http-equiv="Content-Type" content="text/html;charset=utf-8">'
                     + '<meta http-equiv="X-UA-Compatible" content="IE=edge"></head><body style="margin:0;padding:0">';
 
-            var suffix = "<scr"
+            /*var suffix = "<scr"
                     .concat("ipt type='text/javascript' src='//{{{domain}}}/res/sovrn.containertag.min.js?cid=17&aid="
                             + window.sovrn.headersuite.config.affiliateId
                             + "'></sc","ript></body></html>");
+            */
+            var suffix = '<scr'.concat('ipt type="text/javascript" src="http://ap.lijit.com/res/sovrn.containertag.min.js?cid=17&aid=17505"></sc', 'ript></', "bo", "dy", ">", "</", "ht", "ml>");
+
+
             var sovrn_html = prefix + suffix;
 
             try {
